@@ -33,3 +33,13 @@ else
 	echo "OK: Memory usage is ${MEM_PER}%" >> $LOG_FILE
 fi
 
+
+
+if pgrep -x sshd > /dev/null
+then
+	echo "OK: SSH daemon is running" >> "$LOG_FILE"
+else
+	echo "WARNING: SSH daemon is NOT running" >> "$LOG_FILE"
+	echo "Impact: Remote access to this system is unavailable" >> "$LOG_FILE"
+fi
+
