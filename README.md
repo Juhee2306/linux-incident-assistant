@@ -31,10 +31,11 @@ for later analysis.
 
 linux-incident-assistant/
 
+linux-incident-assistant/
 ├── bin/
-│   └── incident_check.sh
+│ └── incident_check.sh
 ├── logs/
-│   └── incident.log (generated at runtime)
+│ └── incident.log (generated at runtime)
 └── README.md
 
 ## How to Run
