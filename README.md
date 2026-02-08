@@ -30,10 +30,15 @@ for later analysis.
 ## Project Structure
 
 linux-incident-assistant/
+
 ├── bin/
+
 │   └── incident_check.sh
+
 ├── logs/
+
 │   └── incident.log (generated at runtime)
+
 └── README.md
 
 ## How to Run
