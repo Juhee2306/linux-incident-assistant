@@ -28,18 +28,14 @@ for later analysis.
 - **Maintainable**: Refactored into functions for clarity and reuse
 
 ## Project Structure
-
+```bash
 linux-incident-assistant/
-
 ├── bin/
-  |
-│ └── incident_check.sh
-  
+│ └── incident_check.sh  
 ├── logs/
-  |
 │ └── incident.log (generated at runtime)
-
 └── README.md
+```
 
 ## How to Run
 
