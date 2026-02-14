@@ -14,7 +14,7 @@ during an incident.
 The Linux Incident Assistant performs the following checks:
 
 - Disk usage pressure (threshold-based)
-- Memory usage pressure
+- Memory usage pressure.
 - SSH availability (process-based detection)
 
 Each check is classified as `OK` or `WARNING` and written to a log file
